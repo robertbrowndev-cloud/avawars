@@ -10,37 +10,12 @@ A faithful Python/pygame port of **AVAWARS**, the Plants-vs-Zombies-style tower
 defence game originally written in Khan Academy ProcessingJS by
 *Corin Fist Productions* (7–12 April 2021).
 
-Every pixel is still drawn from the original vector code — no sprite sheets, no
-image files. The artwork is the same ~2,000 lines of `beginShape` / `bezierVertex`
-calls, transcribed into Python and baked to textures at load time.
+Every pixel is still drawn from the original vector code. transcribed into Python and baked to textures at load time.
 
 ---
 
 ## Play it
-
-### In a browser (GitHub Pages)
-
-Push this repo to GitHub, then **Settings → Pages → Source → GitHub Actions**.
-The included workflow builds the game to WebAssembly with
-[pygbag](https://pygame-web.github.io/) and publishes it. Your game lands at:
-
-```
-https://<your-username>.github.io/<repo-name>/
-```
-
-### On your machine
-
-```bash
-pip install -r requirements.txt
-python main.py
-```
-
-### Build the web version locally
-
-```bash
-pip install pygbag
-pygbag .            # then open http://localhost:8000
-```
+[play here!](https://robertbrowndev-cloud.github.io/avawars/)
 
 ---
 
