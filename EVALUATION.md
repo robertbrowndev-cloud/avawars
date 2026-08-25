@@ -1,4 +1,4 @@
-# Evaluating the original AVAWARS
+# Evaluating the original AVAWARS (Thank you to Claude for the Conversion and Evaluation here)
 
 Notes from porting ~2,600 lines of Khan Academy ProcessingJS to Python.
 
