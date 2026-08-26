@@ -15,7 +15,7 @@ Every pixel is still drawn from the original vector code. transcribed into Pytho
 ---
 
 ## Play it
-[play here!](https://robertbrowndev-cloud.github.io/avawars/)
+[play here!](https://RobertCloudDev.github.io/avawars/)
 
 ---
 
